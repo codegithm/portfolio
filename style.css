@@ -1,0 +1,391 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+}
+
+nav {
+  height: 80px;
+  background: rgb(31, 30, 95);
+  box-shadow: 0px 6px 8px #2b2a2a;
+  width: 100%;
+  position: fixed;
+}
+.nav-links {
+  display: flex;
+  height: 100%;
+  width: 50%;
+  justify-content: space-between;
+  margin-left: auto;
+  align-items: center;
+  list-style: none;
+  margin-right: 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
+.landing .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+.landing .intro h1 {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 70px;
+}
+.landing .more button {
+  border-style: none;
+  border-radius: 5px;
+  padding: 6px 25px;
+  color: #fff;
+  background: rgb(147, 19, 68);
+  font-size: 24px;
+}
+.landing .more {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact {
+  border-style: none;
+  border-radius: 4px;
+  padding: 6px 16px;
+  color: #fff;
+  background: rgb(224, 78, 100);
+  font-size: 18px;
+}
+.landing {
+  background-image: url("./images/landing.png");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about .description {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about .info {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.about .info .info__list {
+  list-style: none;
+  margin: 10px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about .info .infomation .info__list li {
+  margin: 10px;
+}
+
+.about .info .infomation {
+  margin: 15px;
+}
+
+.about .info .info__list .exp1 {
+  margin: 10px;
+  width: 30%;
+}
+.about .info .info__list .exp2 {
+  margin: 10px;
+  width: 29%;
+}
+.about .info .info__list .exp3 {
+  margin: 10px;
+  width: 28%;
+}
+.about .info .info__list li i {
+  margin-right: 10px;
+}
+.about .info .info__list li p {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 18px;
+}
+.about .about__content {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  height: 60%;
+}
+.about .about__me {
+  color: rgb(31, 30, 95);
+}
+.about .description .picture img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.about .about__content .description {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+  margin: 15px;
+}
+
+.skills__section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(31, 30, 95);
+}
+.skills__container {
+  max-width: 800px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgb(211, 206, 206);
+  height: 15px;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.the__skill {
+  background: rgb(224, 78, 100);
+  height: 100%;
+  width: 100%;
+  font-size: 10px;
+  color: white;
+  border-radius: 1rem;
+  display: flex;
+}
+
+.frontend {
+  width: 100%;
+  height: 70%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.backend {
+  width: 100%;
+  height: 70%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.skills {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  color: #fff;
+}
+.skill__title {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.frontend .what,
+.backend .what {
+  margin: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.the__skill span {
+  margin: auto;
+}
+
+.s1 {
+  width: 85%;
+}
+.s2 {
+  width: 80%;
+}
+.s3 {
+  width: 75%;
+}
+.s4 {
+  width: 45%;
+}
+.s5 {
+  width: 40%;
+}
+.s6 {
+  width: 78%;
+}
+.s7 {
+  width: 70%;
+}
+.s8 {
+  width: 60%;
+}
+
+.load {
+  animation: loading 1s linear;
+}
+@keyframes loading {
+  0% {
+    width: 0%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .line {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+  }
+  nav {
+    position: relative;
+    position: fixed;
+  }
+  .hamburger {
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    transform: translate(-5, -50%);
+    z-index: 2;
+  }
+  .nav-links {
+    position: fixed;
+    background: rgb(4, 133, 195);
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    clip-path: circle(100px at 100% -18%);
+
+    transition: all 1s ease-out;
+  }
+
+  .nav-links.open {
+    clip-path: circle(1200px at 100% -18%);
+  }
+  .nav-links {
+    padding-bottom: 90px;
+    padding-top: 90px;
+  }
+
+  .nav-links :hover {
+    font-size: 26px;
+    transition: all 0.3s ease-in-out;
+    color: red;
+  }
+  .contact {
+    padding: 6px 60px;
+  }
+  .landing .more button {
+    font-size: 17px;
+  }
+  .intro {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about {
+    height: auto;
+  }
+  .about__content {
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .para {
+    margin-bottom: 15px;
+  }
+  .about .description,
+  .about .info {
+    width: 100%;
+  }
+  .about__me {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .landing .intro h1 {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .landing .intro h1 {
+    font-size: 55px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .landing .intro h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .landing .intro h1 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .landing .intro h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .landing .intro h1 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .landing .intro h1 {
+    font-size: 30px;
+  }
+}
