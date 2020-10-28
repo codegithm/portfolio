@@ -48,6 +48,9 @@ nav {
   font-family: "Raleway", sans-serif;
   font-size: 70px;
 }
+.landing .intro .h1 {
+  margin-top: 100px;
+}
 .landing .more button {
   border-style: none;
   border-radius: 5px;
@@ -63,6 +66,18 @@ nav {
   justify-content: center;
   align-items: center;
 }
+.social {
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0px;
+  color: rgb(147, 19, 68);
+}
+.social a {
+  margin: 10px;
+}
 .contact {
   border-style: none;
   border-radius: 4px;
@@ -72,14 +87,19 @@ nav {
   font-size: 18px;
 }
 .landing {
-  background-image: url("./images/landing.png");
+  background-image: url("./images/backimg.jpg");
   background-size: cover;
   width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
 }
-
+#resume {
+  background: rgb(224, 78, 100);
+}
+.more button {
+  margin: 5px;
+}
 .about {
   width: 100%;
   height: 100vh;
@@ -146,6 +166,7 @@ nav {
 }
 .about .about__me {
   color: rgb(31, 30, 95);
+  font-weight: bold;
 }
 .about .description .picture img {
   width: 300px;
@@ -273,6 +294,237 @@ nav {
     width: 0%;
   }
 }
+
+.services {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.my__services {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(31, 30, 95);
+}
+.my__services h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.cards__container {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 300px;
+  height: 100%;
+  border-style: none;
+  border-radius: 10px;
+  background: rgb(224, 78, 100);
+  margin-right: 20px;
+}
+.card__title {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.card__content {
+  display: flex;
+  width: auto;
+  height: 55%;
+  justify-content: center;
+  margin: 10px;
+  color: #fff;
+}
+.icon {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: rgb(31, 30, 95);
+}
+.interested {
+  width: auto;
+  height: 30%;
+  border-style: none;
+  border-radius: 10px;
+  background: rgb(224, 78, 100);
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #fff;
+}
+.interested__title {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.interested__para {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.interested__para p {
+  width: 30%;
+}
+.contact__me {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact__me button {
+  padding: 8px 16px;
+  border-style: none;
+  color: #fff;
+  background: rgb(31, 30, 95);
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.works {
+  width: 100%;
+  height: 100vh;
+}
+.works__title {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(31, 30, 95);
+  font-weight: bold;
+}
+.recent__works {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  cursor: pointer;
+  box-shadow: 2px 4px 6px rgb(46, 44, 44);
+}
+.recent__works a {
+  width: 200px;
+  height: 200px;
+  background: url("./images/works1.jpg");
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 7px 7px grey;
+  margin: 10px;
+}
+#portfolio {
+  background: url("./images/Dont-take-it-personal.png");
+}
+#des {
+  background: black;
+}
+.recent__works a {
+  text-decoration: none;
+}
+.recent__works a .discription {
+  background: rgb(224, 78, 100);
+  width: 100%;
+  height: 50%;
+  opacity: 0.8;
+  margin-top: 50%;
+  border-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  font-size: 22px;
+  transition: all 1s ease-in-out;
+  display: none;
+}
+.recent__works :hover .discription {
+  display: block;
+  transition: 0.5s;
+}
+
+.recent__works a .discription .works__icon {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.recent__works a .discription p {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__page {
+  width: 100%;
+  height: 100vh;
+}
+.contact__title {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(224, 78, 100);
+}
+.form form {
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+}
+.form form label {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.form form input {
+  margin-bottom: 10px;
+  border-radius: 6px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.form form textarea {
+  border-radius: 6px;
+  padding: 10px;
+}
+.form form button {
+  padding: 6px;
+  font-size: 16px;
+  border-radius: 7px;
+  color: #fff;
+  background: rgb(224, 78, 100);
+  border-style: none;
+  margin-top: 7px;
+}
+
 @media screen and (max-width: 800px) {
   .line {
     width: 30px;
@@ -293,7 +545,7 @@ nav {
   }
   .nav-links {
     position: fixed;
-    background: rgb(4, 133, 195);
+    background: rgb(167, 61, 183);
     height: 100vh;
     width: 100%;
     flex-direction: column;
@@ -312,8 +564,9 @@ nav {
 
   .nav-links :hover {
     font-size: 26px;
+    font-weight: bold;
     transition: all 0.3s ease-in-out;
-    color: red;
+    color: rgb(96, 65, 169);
   }
   .contact {
     padding: 6px 60px;
@@ -352,6 +605,34 @@ nav {
     margin-top: 100px;
   }
 }
+@media screen and (max-width: 645px) {
+  .cards__container {
+    flex-direction: column;
+  }
+  .services {
+    height: auto;
+  }
+  .my__services,
+  .card,
+  .interested {
+    margin: 10px;
+  }
+  .interested {
+    margin-bottom: 20px;
+  }
+  .my__services {
+    margin-top: 65px;
+  }
+  .interested__para p {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .contact__me {
+    margin-bottom: 7px;
+    margin-top: 7px;
+  }
+}
 
 @media screen and (max-width: 780px) {
   .landing .intro h1 {
@@ -387,5 +668,10 @@ nav {
 @media screen and (max-width: 400px) {
   .landing .intro h1 {
     font-size: 30px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .recent__works {
+    flex-direction: column;
   }
 }

@@ -6,7 +6,7 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"> 
 </head>
 
 <body>
@@ -24,23 +24,39 @@
                 <a href="#skills">Siklls</a>
             </li>
             <li>
-                <a href="#experience">Experience</a>
+                <a href="#services">Services</a>
             </li>
             <li>
-                <a href="#work">Work</a>
+                <a href="#works">Work</a>
             </li>
-            <button class="contact">Contact</button>
+            <a href="#contact">
+                <button class="contact">Contact</button>
+            </a>
         </ul>
     </nav>
 
     <div class="landing">
         <div class="intro">
-            <h1>Hi My Name Is Ntando</h1>
+            <h1 class="h1">Hi My Name Is Ntando</h1>
             <h1>I am a Web Developer</h1>
+        </div>
+        <div class="social">
+            <a href="https://github.com/codegithm">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ntando-xakaza-50389b1a2/">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.facebook.com/ntandoxakaza">
+                <i class="fab fa-facebook-square"></i>
+            </a>
         </div>
         <div class="more">
             <a href="#about">
             <button>Read More</button>
+            </a>
+            <a href="https://docs.google.com/document/d/1X0EO8lKAeX9VuwQdgVVryfs2PbxQ376Grl7RjtktiWs/edit">
+                <button id="resume">View Resume</button>
             </a>
         </div>
         
@@ -159,6 +175,91 @@
     
     </div>
 </section>
+
+<section class="services" id="services">
+    <div class="my__services">
+        <h1>My Services</h1>
+    </div>
+    <div class="cards__container">
+        <div class="card">
+            <div class="icon">
+                <i class="fas fa-code"></i>
+            </div>
+            <div class="card__title">
+                <h3>Frontend development</h3>
+            </div>
+            <div class="card__content">
+                <p>Developing responsive user interfaces for morden websites</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="icon">
+                <i class="fas fa-server"></i>
+            </div>
+            <div class="card__title">
+                <h3>Backend development</h3>
+            </div>
+            <div class="card__content">
+                <p>Developing the app server and database using the technolgies such as MongoDB</p>
+            </div>
+        </div>
+    </div>
+    <div class="interested">
+        <div class="interested__title">
+            <h1>Do you have a project in mind?</h1>
+        </div>
+        <div class="interested__para">
+            <p>If you have a project that you want me to work on do not hesitate and tell me what it is and 
+                what services i can offer.
+            </p>
+        </div>
+        <div class="contact__me">
+            <button>Contact me</button>
+        </div>
+    </div>
+</section>
+
+<section class="works" id="works">
+    <div class="works__title">
+        <h1>Recent Works</h1>
+    </div>
+    <div class="recent__works">
+        <a href="https://marviebenz.netlify.app/">
+            <div class="discription">
+                <div class="works__icon">
+                    <i class="fas fa-headphones-alt"></i>
+                </div>
+                <p>Music Portfolio</p>
+            </div>
+        </a>
+
+        <a id="portfolio" href="https://codegithm.github.io/personalwebsite/">
+            <div class="discription" id="des">
+                <div class="works__icon">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <p>Personal Portfolio</p>
+            </div>
+        </a>
+    </div>
+</section>
+
+<section class="contact__page" id="contact">
+    <div class="contact__title">
+        <h2>Leave a Message</h2>
+    </div>
+    <div class="form">
+        <form action="">
+            <label for="" placeholder="Enter your Name">Name:</label>
+            <input type="text">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Enter Message"></textarea>
+            <button>Send</button>
+        </form>
+    </div>
+</section>
+
+
    
     <script src="./app.js"></script>
 </body>
